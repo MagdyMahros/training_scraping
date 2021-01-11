@@ -35,6 +35,7 @@ delay_ = 5  # seconds
 # except NoSuchElementException:
 #     pass
 # time.sleep(3)
+
 # KEEP CLICKING UNTIL THERE IS NO BUTTON
 condition = True
 while condition:
