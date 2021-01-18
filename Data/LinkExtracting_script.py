@@ -27,14 +27,6 @@ links_list = []
 browser.get(page_url)
 delay_ = 5  # seconds
 
-# # display 100 raws of data
-# try:
-#     browser.execute_script("arguments[0].click();", WebDriverWait(browser, delay_).until(
-#         EC.element_to_be_clickable(
-#             (By.XPATH, '//*[@id="gridRtoSearchResults"]/table/tfoot/tr/td/div[3]/a[3]'))))
-# except NoSuchElementException:
-#     pass
-# time.sleep(3)
 
 # KEEP CLICKING UNTIL THERE IS NO BUTTON
 condition = True
